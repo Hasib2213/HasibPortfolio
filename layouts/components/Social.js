@@ -72,11 +72,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="facebook"
-            href={`${facebook}/#!`}
+            href={facebook}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoFacebook />
@@ -87,11 +84,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="stackoverflow"
-            href={`${stackoverflow}/#!`}
+            href={stackoverflow}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoStackoverflow />
@@ -102,11 +96,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="twitter"
-            href={`${twitter}/#!`}
+            href={twitter}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoTwitter />
@@ -117,11 +108,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="instagram"
-            href={`${instagram}/#!`}
+            href={instagram}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoInstagram />
@@ -132,11 +120,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="youtube"
-            href={`${youtube}/#!`}
+            href={youtube}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoYoutube />
@@ -147,11 +132,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="linkedin"
-            href={`${linkedin}/#!`}
+            href={linkedin}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoLinkedin />
@@ -162,11 +144,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="github"
-            href={`${github}/#!`}
+            href={github}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoGithub />
@@ -177,11 +156,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="gitlab"
-            href={`${gitlab}/#!`}
+            href={gitlab}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoGitlab />
@@ -192,11 +168,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="discord"
-            href={`${discord}/#!`}
+            href={discord}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoDiscord />
@@ -207,11 +180,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="slack"
-            href={`${slack}/#!`}
+            href={slack}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoSlack />
@@ -222,11 +192,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="medium"
-            href={`${medium}/#!`}
+            href={medium}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoMedium />
@@ -237,11 +204,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="codepen"
-            href={`${codepen}/#!`}
+            href={codepen}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoCodepen />
@@ -252,11 +216,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="bitbucket"
-            href={`${bitbucket}/#!`}
+            href={bitbucket}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoBitbucket />
@@ -267,11 +228,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="dribbble"
-            href={`${dribbble}/#!`} 
+            href={dribbble}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoDribbble />
@@ -282,11 +240,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="behance"
-            href={`${behance}/#!`}
+            href={behance}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoBehance />
@@ -297,11 +252,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="pinterest"
-            href={`${pinterest}/#!`}
+            href={pinterest}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoPinterest />
@@ -312,11 +264,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="soundcloud"
-            href={`${soundcloud}/#!`}
+            href={soundcloud}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoSoundcloud />
@@ -327,11 +276,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="tumblr"
-            href={`${tumblr}/#!`}
+            href={tumblr}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoTumblr />
@@ -342,11 +288,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="reddit"
-            href={`${reddit}/#!`}
+            href={reddit}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoReddit />
@@ -357,11 +300,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="vk"
-            href={`${vk}/#!`}
+            href={vk}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoVk />
@@ -372,11 +312,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="whatsapp"
-            href={`${whatsapp}/#!`}
+            href={whatsapp}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoWhatsapp />
@@ -387,11 +324,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="snapchat"
-            href={`${snapchat}/#!`}
+            href={snapchat}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoSnapchat />
@@ -402,11 +336,8 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="vimeo"
-            href={`${vimeo}/#!`}  
+            href={vimeo}
             target="_blank"
-            onClick={(e) => {
-              e.preventDefault();
-            }}
             rel="noopener noreferrer nofollow"
           >
             <IoLogoVimeo />
@@ -417,10 +348,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="tiktok"
-            href={`${tiktok}/#!`}
-            onClick={(e) => {
-              e.preventDefault();
-            }}
+            href={tiktok}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -432,10 +360,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="foursquare"
-            href={`${foursquare}/#!`}
-            onClick={(e) => {
-              e.preventDefault();
-            }}
+            href={foursquare}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -447,10 +372,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="skype"
-            href={`${skype}/#!`}
-            onClick={(e) => {
-              e.preventDefault();
-            }}
+            href={skype}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -462,10 +384,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="website"
-            href={`${website}/#!`}
-            onClick={(e) => {
-              e.preventDefault();
-            }}
+            href={website}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -477,10 +396,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="rss feed"
-            href={`${rss}/#!`}
-            onClick={(e) => {
-              e.preventDefault();
-            }}
+            href={rss}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
@@ -490,18 +406,14 @@ const Social = ({ source, className }) => {
       )}
       {email && (
         <li className="inline-block">
-          <a aria-label="email" href={`mailto:${email}`} onClick={(e) => {
-            e.preventDefault();
-          }}>
+          <a aria-label="email" href={`mailto:${email}`}>
             <IoMail />
           </a>
         </li>
       )}
       {phone && (
         <li className="inline-block">
-          <a aria-label="telephone" href={`tel:${phone}`} onClick={(e) => {
-            e.preventDefault();
-          }}>
+          <a aria-label="telephone" href={`tel:${phone}`}>
             <IoCall />
           </a>
         </li>
@@ -510,10 +422,7 @@ const Social = ({ source, className }) => {
         <li className="inline-block">
           <a
             aria-label="location"
-            href={`${address}/#!`}
-            onClick={(e) => {
-              e.preventDefault();
-            }}
+            href={address}
             target="_blank"
             rel="noopener noreferrer nofollow"
           >
