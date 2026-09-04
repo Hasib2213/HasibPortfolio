@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 const ImageFallback = (props) => {
-  const { src, fallback, width, height, alt, className, priority, ...rest } = props;
+  const { src, fallback, width, height, alt, className, priority, fill, ...rest } = props;
 
   // For static export with basePath, prepend the basePath to relative image paths
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
